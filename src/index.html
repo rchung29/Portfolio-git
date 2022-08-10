@@ -9,9 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <link href="/dist/output.css" rel="stylesheet">
 </head>
-<body class="md:max-w-6xl mx-auto bg-black font-Montserrat" style="background-image: url(assets/Background.png)">
+<body class="mx-auto bg-black font-Montserrat" style="background-image: url(assets/Background.png)">
     <!-- Responsive Nav Bar Element -->
-    <nav class="flex justify-between flex-wrap items-center w-full py-6 md:py-10 px-4 text-base text-white">
+    <nav class="bg-black shadow-lg opacity-90 sticky z-50 top-0 flex justify-between flex-wrap items-center w-full py-6 md:py-6 px-4 text-base text-white">
         <svg xmlns="<http://www.w3.org/2000/svg>" id="menu-button" class="h-6 w-6 cursor-pointer md:hidden block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
         </svg>
@@ -24,26 +24,26 @@
         </div>
     </nav>
     <!-- Hero Page -->
-    <div class="w-full text-center">
-        <div class="text-center pt-48">
+    <div class="md:max-w-6xl w-full text-center mx-auto">
+        <div class="animatecss animatecss-fadeInUp text-center pt-48">
             <h1 class="text-white text-6xl font-extrabold">Hi! I'm Ryan</h1>
             <p class="text-gray-500 text-semibold text-2xl font-medium mt-4 px-4">I’m a web designer and developer</p>
         </div>
-        <div class="mt-12 pb-96">
+        <div class="animatecss animatecss-fadeInUp mt-12 pb-96">
             <a href="https://discord.gg" class="mx-4 rounded-lg px-12 py-5 text-white border-2 border-red-500 bg-red-500 text-md font-medium hover:drop-shadow-lg hover:bg-red-400 hover:border-red-400">Discord</a>
             <a href="https://discord.gg" class="mx-4 rounded-lg px-12 py-5 text-white border-2 border-red-500 text-md font-medium hover:drop-shadow-lg hover:bg-red-400 hover:border-red-400">Email</a>
         </div>
     </div>
     <!-- About Me -->
-    <div class="">
-        <div class="text-center w-auto">
+    <div class="md:max-w-6xl mx-auto">
+        <div class="animatecss text-center w-auto" id="fadeInUp">
             <h5 class="text-red-500 font-medium text-base pb-2">About Me</h5>
             <h2 class="text-white font-bold text-4xl">What I Do</h2>
             <p class="text-gray-500 font-medium text-xl pt-4 md:w-6/12 w-11/12 mx-auto">I’m a web developer utilizing HTML, TailwindCSS, and Javascript. All it takes is 3 easy steps and 7-10 days for a beautiful, responsive website.</p>
         </div>
         <div>
             <div class="block lg:flex lg:flex-row mx-auto">
-                <div class="flex flex-col md:w-6/12 mt-36 w-6/12 mx-auto">
+                <div class="animatecss flex flex-col md:w-6/12 mt-36 w-6/12 mx-auto" id="fadeInLeft">
                     <div>
                         <div class="flex items-center">
                             <img src="assets/Icon1.svg" alt="">
@@ -72,47 +72,47 @@
                         </div>
                     </div>
                 </div>
-                <div class="block lg:flex lg:flex-col lg:w-6/12 lg:items-end items-center mt-32 w-11/12 mx-auto">
+                <div class="animatecss block lg:flex lg:flex-col lg:w-6/12 lg:items-end items-center mt-32 w-11/12 mx-auto" id="fadeInRight">
                     <img src="assets/Aboutme.png" alt="" class="mx-auto">
                 </div>
             </div> 
         </div>
     </div>
     <!-- Portfolio -->  
-    <div class="lg:flex lg:flex-row block mt-72 items-start mx-auto">
+    <div class="md:max-w-6xl mx-auto lg:flex lg:flex-row block mt-72 items-start mx-auto">
         <div class="md:w-6/12 w-9/12 lg:flex lg:flex-col mx-auto">
-            <div class="text-left">
+            <div class=" animatecss text-left" id="fadeInLeft2">
                 <h5 class="text-red-500 font-medium text-base pb-2">Portfolio</h5>
                 <h2 class="text-white font-bold text-4xl">Designed</h2>
             </div>
-            <div class="mt-12 mb-4">
+            <div class="animatecss mt-12 mb-4" id="fadeInLeft3">
                 <a href="Omni Proxies" class="block w-full md:w-10/12 pl-6 hover:border-red-500 rounded-lg text-xl text-white font-bold text-left bg-zinc-900 py-6 border-2 border-gray-500">Omni Proxies</a>
             </div>
-            <div class="my-4">
+            <div class="animatecss my-4" id="fadeInLeft4">
                 <a href="Omni Proxies" class="block w-full md:w-10/12 pl-6 hover:border-red-500 rounded-lg text-xl text-white font-bold text-left bg-zinc-900 py-6 border-2 border-gray-500">OpenPay</a>
             </div>
-            <div class="my-4">
+            <div class="animatecss my-4" id="fadeInLeft5">
                 <a href="Omni Proxies" class="block w-full md:w-10/12 pl-6 hover:border-red-500 rounded-lg text-xl text-white font-bold text-left bg-zinc-900 py-6 border-2 border-gray-500">SabreIO</a>
             </div>
-            <div class="my-4">
+            <div class="animatecss my-4" id="fadeInLeft6">
                 <a href="Omni Proxies" class="block w-full md:w-10/12 pl-6 hover:border-red-500 rounded-lg text-xl text-white font-bold text-left bg-zinc-900 py-6 border-2 border-gray-500">Retail Proxies</a>
             </div>
-            <div class="my-20">
+            <div class="animatecss my-20" id="fadeInLeft7">
                 <a href="Omni Proxies" class="rounded-lg text-base text-white font-medium text-centr py-6 px-14 bg-red-500 hover:bg-red-400">See More</a>
             </div>
         </div>
-        <div class="md:w-6/12 w-9/12 lg:flex lg:flex-col mx-auto">
-            <div class="text-left">
+        <div class="md:max-w-6xl mx-auto md:w-6/12 w-9/12 lg:flex lg:flex-col mx-auto">
+            <div class="animatecss text-left" id="fadeInRight2">
                 <h5 class="text-red-500 font-medium text-base pb-2">Portfolio</h5>
                 <h2 class="text-white font-bold text-4xl">Developed</h2>
             </div>
-            <div class="mt-12 mb-4">
+            <div class="animatecss mt-12 mb-4" id="fadeInRight3">
                 <a href="Omni Proxies" class="block w-full md:w-10/12 pl-6 hover:border-red-500 rounded-lg text-xl text-white font-bold text-left bg-zinc-900 py-6 border-2 border-gray-500">Pellucid</a>
             </div>
         </div>
     </div>
     <!--Call to Action-->
-    <div class="my-64">
+    <div class="animatecss my-64" id="fadeInUp2">
         <div class="text-center">
             <h5 class="text-red-500 font-medium text-base pb-2">Get Started</h5>
             <h2 class="text-white font-bold text-4xl">Build Your Brand Today</h2>
